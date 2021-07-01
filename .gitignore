@@ -2,4 +2,5 @@ c/build/
 */plot.ppm
 go/go
 rust/target
+cpp/build/
 

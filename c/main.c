@@ -22,8 +22,8 @@ int main() {
       double y0 = - HEIGTH / 2.0 + (double)yi / (double)RESOLUTION;
 
       int iteration = 0;
-      float x = 0.0;
-      float y = 0.0;
+      double x = 0.0;
+      double y = 0.0;
 
       while(iteration < MAX_ITERATIONS) {
         float xtemp = x * x - y * y + x0;
