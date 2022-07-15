@@ -18,8 +18,8 @@ int main() {
   for(int xi = 0; xi < width; ++xi) {
     for(int yi = 0; yi < heigth; ++yi) {
 
-      double x0 = - WIDTH / 2.0 + (double)xi / (double)RESOLUTION;
-      double y0 = - HEIGTH / 2.0 + (double)yi / (double)RESOLUTION;
+      const double x0 = - WIDTH / 2.0 + (double)xi / (double)RESOLUTION;
+      const double y0 = - HEIGTH / 2.0 + (double)yi / (double)RESOLUTION;
 
       int iteration = 0;
       double x = 0.0;

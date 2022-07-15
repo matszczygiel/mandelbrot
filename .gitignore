@@ -3,4 +3,6 @@ c/build/
 go/go
 rust/target
 cpp/build/
+zig/zig-out
+zig/zig-cache
 
